@@ -22,6 +22,7 @@ while (current.next !== null){
 	current = current.next;	
 }
 current.next = newNode;
+}
 
 display(){
 	let current = this.head;
