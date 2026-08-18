@@ -7,7 +7,7 @@ class ListNode{
 
 class Linkedlist {
 	
-	constuctor() {
+	constructor() {
 	this.head = null;
 
 	}
@@ -19,7 +19,7 @@ add(data){
 	return;
 	}
 }
-let current = thid.head;
+let current = this.head;
 while (current.next !== null){
 	current = current.next;	
 }
