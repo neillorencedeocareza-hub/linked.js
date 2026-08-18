@@ -1,5 +1,5 @@
 class ListNode{
-	Constructor(data){
+	constructor(data){
 	this.data = data;
 	this.next = null;
 	}
@@ -10,8 +10,6 @@ class Linkedlist {
 	constructor() {
 	this.head = null;
 
-	}
-}
 add(data){
 	const newNode = new ListNode(data);
 	if(this.head === null){
@@ -34,4 +32,5 @@ display(){
 	}
 	document.getElementById("output").textContent = output;
 	}
+}
 }
