@@ -34,4 +34,4 @@ display(){
 	document.getElementById("output").textContent = output;
 	}
 }
-}
+
