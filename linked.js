@@ -9,6 +9,7 @@ class Linkedlist {
 	
 	constructor() {
 	this.head = null;
+	}
 
 add(data){
 	const newNode = new ListNode(data);
@@ -16,7 +17,6 @@ add(data){
 	this.head = newNode;
 	return;
 	}
-}
 let current = this.head;
 while (current.next !== null){
 	current = current.next;	
